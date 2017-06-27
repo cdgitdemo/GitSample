@@ -6,7 +6,7 @@
  * @author JYang
  *
  */
-public class HelloWorld {
+public class HelloWorld implements HelloWorldIF {
 
 	/**
 	 * 
@@ -21,6 +21,11 @@ public class HelloWorld {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+	}
+
+	@Override
+	public String hello(String name) {
+		return "Hello! "+ name;
 	}
 
 }
