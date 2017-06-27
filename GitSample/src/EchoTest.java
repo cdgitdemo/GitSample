@@ -6,12 +6,12 @@
  * @author JYang
  *
  */
-public class HelloWorld implements HelloWorldIF {
+public class EchoTest {
 
 	/**
 	 * 
 	 */
-	public HelloWorld() {
+	public EchoTest() {
 		// TODO Auto-generated constructor stub
 	}
 
@@ -21,11 +21,6 @@ public class HelloWorld implements HelloWorldIF {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-	}
-
-	@Override
-	public String hello(String name) {
-		return "Hello! "+ name;
 	}
 
 }
