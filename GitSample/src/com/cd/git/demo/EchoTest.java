@@ -1,3 +1,4 @@
+package com.cd.git.demo;
 /**
  * 
  */
@@ -7,12 +8,18 @@
  *
  */
 public class EchoTest {
-
+	
+	String name = "";
 	/**
 	 * 
 	 */
-	public EchoTest() {
-		// TODO Auto-generated constructor stub
+	public EchoTest(String name) {
+		this.name = name;
+	}
+	
+	public String echo()
+	{
+		return name;
 	}
 
 	/**
@@ -20,7 +27,7 @@ public class EchoTest {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		
 	}
 
 }
