@@ -1,10 +1,10 @@
 package com.cd.git.demo;
 /**
- * 
+ * This class demonstrate an echo test.
  */
 
 /**
- * @author JYang
+ * @author Jackson Yang
  *
  */
 public class EchoTest {
@@ -26,8 +26,7 @@ public class EchoTest {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+		System.out.print((new EchoTest("Jianshan")).echo());
 	}
 
 }
