@@ -1,10 +1,10 @@
 package com.cd.git.demo;
 /**
- * 
+ * This class is for an echo test.
  */
 
 /**
- * @author JYang
+ * @author Jianshan Yang
  *
  */
 public class EchoTest {
