@@ -1,6 +1,6 @@
 package com.cd.git.demo;
 /**
- * 
+ * A interface of echo.
  */
 
 /**
