@@ -20,7 +20,7 @@ public class HelloWorld implements HelloWorldIF {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		System.console().writer().print((new HelloWorld()).hello("Jianshan"));
+		System.console().writer().print((new HelloWorld()).hello("Jianshan Yang @ Change One"));
 	}
 
 	@Override
