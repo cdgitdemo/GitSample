@@ -23,6 +23,7 @@ public class HelloWorld {
 		// TODO Auto-generated method stub
 
 		String s = "Femi";
+		String a = "Asad";
 	}
 
 }
