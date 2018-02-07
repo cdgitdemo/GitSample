@@ -9,7 +9,7 @@ package com.cd.git.demo;
  */
 public class EchoTest {
 	
-	String name = "";
+	String name = "Godson";
 	/**
 	 * 
 	 */
