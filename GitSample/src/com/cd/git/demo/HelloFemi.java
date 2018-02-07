@@ -9,6 +9,7 @@ package com.cd.git.demo;
  */
 public class HelloFemi {
 
+	String name = "";
 	/**
 	 * 
 	 */
