@@ -29,5 +29,4 @@ public class EchoTest {
 		System.out.print((new EchoTest("Jianshan(Jackson) Yang")).echo());
 		System.out.print((new EchoTest("Zhun(Jack) Yang")).echo());
 	}
-
 }
