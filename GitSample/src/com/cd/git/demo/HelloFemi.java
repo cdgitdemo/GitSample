@@ -14,14 +14,18 @@ public class HelloFemi {
 	 * 
 	 */
 	public HelloFemi() {
-		// TODO Auto-generated constructor stub
+
+	}
+	
+	public String echo(String name)
+	{
+		return "Hello" + name;
 	}
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 
