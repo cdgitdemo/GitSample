@@ -9,7 +9,7 @@ package com.cd.git.demo;
  */
 public class EchoTest {
 	
-	String name = "";
+	String name = "Godson";
 	/**
 	 * 
 	 */
@@ -26,6 +26,7 @@ public class EchoTest {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		System.out.print((new EchoTest("Jianshan(Jackson) Yang")).echo());
 		System.out.print((new EchoTest("Zhun(Jack) Yang")).echo());
 	}
 }
