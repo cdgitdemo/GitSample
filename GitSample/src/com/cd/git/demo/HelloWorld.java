@@ -8,19 +8,21 @@ package com.cd.git.demo;
  *
  */
 public class HelloWorld implements HelloWorldIF {
+	String name = "";
 
 	/**
 	 * 
 	 */
 	public HelloWorld() {
-		// TODO Auto-generated constructor stub
+		this.name = "NoName";
 	}
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		System.out.println((new HelloWorld()).hello("Jackson @ 12:01s"));
+		System.out.println((new HelloWorld()).hello("Jianshan Yang"));
+		System.out.println((new HelloWorld()).hello("Jackson Yang"));
 	}
 
 	@Override
