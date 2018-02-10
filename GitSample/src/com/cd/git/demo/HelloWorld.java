@@ -23,6 +23,7 @@ public class HelloWorld implements HelloWorldIF {
 	public static void main(String[] args) {
 		System.out.println((new HelloWorld()).hello("Jianshan Yang"));
 		System.out.println((new HelloWorld()).hello("Jackson Yang"));
+		System.out.println((new HelloWorld()).hello("Jack Yang"));
 	}
 
 	@Override
